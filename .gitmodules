@@ -1,0 +1,15 @@
+[submodule "saait"]
+	path = saait
+	url = git://git.codemadness.org/saait
+[submodule "smu"]
+	path = smu
+	url = https://github.com/Gottox/smu.git
+[submodule "darkhttpd"]
+	path = darkhttpd
+	url = https://github.com/emikulic/darkhttpd.git
+[submodule "entr"]
+	path = entr
+	url = https://github.com/eradman/entr.git
+[submodule "nq"]
+	path = nq
+	url = https://github.com/leahneukirchen/nq.git

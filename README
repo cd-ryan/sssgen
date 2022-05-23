@@ -1,0 +1,18 @@
+a simple conglomeration of my favorite static site generating tools,
+as well as how i format my websites myself
+
+tools:
+- saait (https://git.codemadness.org/saait/) [ISC]
+- smu (https://github.com/Gottox/smu) [MIT]
+- entr (https://github.com/eradman/entr) [ISC] [libs: 2-term BSD & ISC]
+- darkhttpd (https://github.com/emikulic/darkhttpd) [ISC]
+- nq (https://github.com/leahneukirchen/nq.git) [CC0 1.0]
+
+legal stuff:
+
+any file that is explicitly marked with the apache2 license blurb
+with my name (Ryan Horne) is licensed as "sssgen", otherwise the tools
+(subrepositories; see "tools:" bullet list) have their own licenses
+and may have files that are not marked explicitly. see each subrepo's
+LICENSE or COPYING file for the owner's licensing info.
+
