@@ -6,7 +6,7 @@ how to use:
 - run build-tools.sh
 - edit files in src/<sitename>/*
   -- read saait documentation for more information
-- run watch.sh to rebuild the static html site on demand
+- run watch.sh to rebuild the static html site whenever a file changes
 - run dev-run-darkhttpd.sh to run darkhttpd on the output directory
 - once satisfied with website, write your own script/process to sync
 it to your real http server
