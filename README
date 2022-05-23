@@ -1,12 +1,25 @@
 a simple conglomeration of my favorite static site generating tools,
 as well as how i format my websites myself
 
+how to use:
+- install dependencies (c compiler, rsync, maybe a lib here or there)
+- run build-tools.sh
+- edit files in src/<sitename>/*
+  -- read saait documentation for more information
+- run watch.sh to rebuild the static html site on demand
+- run dev-run-darkhttpd.sh to run darkhttpd on the output directory
+- once satisfied with website, write your own script/process to sync
+it to your real http server
+
 tools:
 - saait (https://git.codemadness.org/saait/) [ISC]
 - smu (https://github.com/Gottox/smu) [MIT]
 - entr (https://github.com/eradman/entr) [ISC] [libs: 2-term BSD & ISC]
 - darkhttpd (https://github.com/emikulic/darkhttpd) [ISC]
 - nq (https://github.com/leahneukirchen/nq.git) [CC0 1.0]
+
+
+-----
 
 legal stuff:
 
