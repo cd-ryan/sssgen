@@ -17,6 +17,7 @@
 SCRIPTDIR=$(dirname "$0")
 SCRIPTDIR=$(readlink -f "$SCRIPTDIR")
 NQBASEDIR="/tmp"
+export PATH="$SCRIPTDIR"/tools:"$PATH"
 NQ="$SCRIPTDIR"/tools/nq
 TOOLS="
 nq

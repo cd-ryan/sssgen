@@ -17,6 +17,7 @@
 SCRIPTDIR=$(dirname "$0")
 SCRIPTDIR=$(readlink -f "$SCRIPTDIR")
 TOOLSBASE="$SCRIPTDIR"/tools
+export PATH="$TOOLSBASE":"$PATH"
 TOOLS="
 darkhttpd
 entr
